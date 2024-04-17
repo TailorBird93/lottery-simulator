@@ -73,6 +73,10 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+.game-options{
+    display: none;
+}
 /* Button ------------------------------------------------------------------------------- */
 .cta-button {
     display: inline-block;
