@@ -14,6 +14,7 @@ header {
     padding: 20px;
 }
 
+/* Nagivation ------------------------------------------------------------------------------- */
 nav {
     display: flex;
     justify-content: space-between;
@@ -51,6 +52,7 @@ nav {
     color: #ff1100;
 }
 
+/* Main Section -------------------------------------------------------------------------------*/
 main {
     max-width: 960px;
     margin: 40px auto;
@@ -71,11 +73,11 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
+/* Button ------------------------------------------------------------------------------- */
 .cta-button {
     display: inline-block;
-    background-color: #ffcc00;
-    color: #333;
+    background-color: #000080;
+    color: #fffafa;
     padding: 12px 24px;
     font-size: 18px;
     text-decoration: none;
@@ -84,9 +86,9 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #ffdd33;
+    background-color: #454ec9;
 }
-
+/* Features ------------------------------------------------------------------------------- */
 .features {
     display: flex;
     justify-content: space-between;
@@ -109,7 +111,7 @@ main {
 .feature p {
     font-size: 16px;
 }
-
+/* Footer ------------------------------------------------------------------------------- */
 footer {
     background-color: #000080;
     color: #fff;
