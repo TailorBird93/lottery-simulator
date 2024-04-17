@@ -73,9 +73,37 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
+/* Game choice section ------------------------------------------------------------------------ */
 .game-options{
     display: none;
+}
+.game-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.game-options li {
+    margin-right: 10px;
+}
+
+.game-options li:last-child {
+    margin-right: 0;
+}
+
+.game-options a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.game-options a:hover {
+    background-color: #ffdd33;
 }
 /* Button ------------------------------------------------------------------------------- */
 .cta-button {
