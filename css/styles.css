@@ -68,7 +68,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;  
-    max-width: 960px;
+    width: 90%;
     margin: 40px auto;
     padding: 20px;
     background-color: #61cbdd;
@@ -131,7 +131,7 @@ main {
     background-color: #ffdd33;
 }
 /* Button ------------------------------------------------------------------------------- */
-.cta-button {
+.cta-button, button{
     display: inline-block;
     background-color: #0af150;
     color: #000000;
@@ -176,4 +176,34 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+/* Lotto Game ------------------------------------------------------------------------------*/
+.lotto-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Inputs --------------------------------------------------------------------------------- */
+.number-inputs {
+    margin-bottom: 20px;
+}
+
+.number-inputs input {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Results --------------------------------------------------------------------------------- */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
