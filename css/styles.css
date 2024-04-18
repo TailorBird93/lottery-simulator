@@ -74,6 +74,9 @@ main {
     background-color: #61cbdd;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: url("../images/crossed-fingers.svg");
+    background-size: 20%;
+    background-repeat: round;
 }
 
 .hero {
@@ -151,10 +154,10 @@ main {
 }
 
 .feature {
-    flex-basis: 30%;
     background-color:#000080;
     color: white;
     padding: 20px;
+    margin: 20px;
     border-radius: 4px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
