@@ -10,4 +10,10 @@ $(document).ready(function() {
             $(this).text("Show Games");
         }
     });
+
+
+    // Lotto game scripts 
+    
+      
 });
+

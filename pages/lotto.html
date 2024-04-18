@@ -6,6 +6,7 @@
     <title>Lotto - Lottery Simulator</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header>
@@ -23,7 +24,25 @@
     </header>
 
     <main>
-        <h1>Lotto</h1>
+        <div class="lotto-game">
+            <h2>Play the Lotto</h2>
+            <p>Select 6 numbers from 1 to 59:</p>
+            
+            <form id="lotto-form">
+              <div class="number-inputs">
+                <input type="number" min="1" max="59" required>
+                <input type="number" min="1" max="59" required>
+                <input type="number" min="1" max="59" required>
+                <input type="number" min="1" max="59" required>
+                <input type="number" min="1" max="59" required>
+                <input type="number" min="1" max="59" required>
+              </div>
+              
+              <button type="submit">Play</button>
+            </form>
+            
+            <div id="result">Result</div>
+          </div>
         <!-- Add Lotto game content here -->
     </main>
 
@@ -31,6 +50,6 @@
         <p>&copy; 2023 Lottery Simulator. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
