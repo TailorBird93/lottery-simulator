@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .logo a {
@@ -72,6 +73,7 @@ main {
     padding: 20px;
     background-color: #61cbdd;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .hero {
@@ -81,6 +83,7 @@ main {
     color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .hero h1 {
@@ -153,7 +156,7 @@ main {
     color: white;
     padding: 20px;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 .feature h2 {
