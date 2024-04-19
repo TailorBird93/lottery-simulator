@@ -24,9 +24,26 @@
     </header>
 
     <main>
-        <h1>Euromillions</h1>
-        <!-- Add Euromillions game content here -->
-    </main>
+        <div class="euromillions-game game">
+          <h2>Play EuroMillions</h2>
+          <p>Select 5 numbers from 1 to 50 and 2 lucky stars from 1 to 12:</p>
+          <form id="euromillions-form">
+            <div class="number-inputs">
+              <input type="number" class="euromillions-number" min="1" max="50" required>
+              <input type="number" class="euromillions-number" min="1" max="50" required>
+              <input type="number" class="euromillions-number" min="1" max="50" required>
+              <input type="number" class="euromillions-number" min="1" max="50" required>
+              <input type="number" class="euromillions-number" min="1" max="50" required>
+            </div>
+            <div class="lucky-star-inputs">
+              <input type="number" class="euromillions-number euromillions-lucky-star" min="1" max="12" required>
+              <input type="number" class="euromillions-number euromillions-lucky-star" min="1" max="12" required>
+            </div>
+            <button type="submit">Play</button>
+          </form>
+          <div id="result">Result</div>
+        </div>
+      </main>>
 
     <footer>
         <p>&copy; 2023 Lottery Simulator. All rights reserved.</p>

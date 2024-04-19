@@ -179,10 +179,7 @@ footer {
 }
 /* All games */
 .game{
-    min-width: 70%
-}
-/* Lotto Game ------------------------------------------------------------------------------*/
-.lotto-game{
+    min-width: 70%;
     color: white;
     background-color: #000080;
     padding: 10px;
@@ -194,11 +191,12 @@ footer {
     border-radius: 5%;
 }
 /* Inputs --------------------------------------------------------------------------------- */
-.number-inputs {
+.number-inputs, .lucky-star-inputs {
     margin-bottom: 20px;
+    padding: 10px;
 }
 
-.number-inputs input {
+.number-inputs input  {
     display: flex;
     flex-direction: row;
     padding: 10px;
