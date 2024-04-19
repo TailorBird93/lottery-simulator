@@ -177,12 +177,21 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* All games */
+.game{
+    min-width: 70%
+}
 /* Lotto Game ------------------------------------------------------------------------------*/
 .lotto-game{
+    color: white;
+    background-color: #000080;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    border-radius: 5%;
 }
 /* Inputs --------------------------------------------------------------------------------- */
 .number-inputs {
@@ -200,10 +209,13 @@ footer {
 }
 /* Results --------------------------------------------------------------------------------- */
 #result {
-    margin-top: 20px;
+    margin: 20px;
     padding: 10px;
+    min-width: 80%;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    color: black;
+    text-align: center;
 }
