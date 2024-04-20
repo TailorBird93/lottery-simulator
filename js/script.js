@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Slide down the game options and change button text when the call-to-action button is clicked
+    // open game option and change the inner text of the button
     $("#get-started").click(function(e) {
         e.preventDefault();
         $("#game-options").slideToggle();
