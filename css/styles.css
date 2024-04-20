@@ -218,6 +218,17 @@ footer {
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     border-radius: 5%;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#num-games{
+    background-color: #000080;
+    margin: 20px;
+    padding: 10px;
+}
 /* Inputs --------------------------------------------------------------------------------- */
 .number-inputs {
     margin-bottom: 20px;
