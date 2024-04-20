@@ -74,6 +74,8 @@ document.getElementById('lotto-form').addEventListener('submit', function(event)
       switch (matchingNumbers.length) {
           case 2:
               freePlays++;
+              numGames++;
+              totalSpent-=2;
               break;
           case 3:
               gameWon = 30;
