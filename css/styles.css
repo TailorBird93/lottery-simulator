@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
 }
 
 html, body {
@@ -29,6 +30,12 @@ nav {
     align-items: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+.burger{
+    display: none;
+}
+.cross{
+    display: none;
+}
 .logo{
     display: flex;
     flex-direction: row;
@@ -42,7 +49,7 @@ nav {
     text-decoration: none;
 }
 
-.logo img{
+img{
     display: flex;
     max-height: 3vh;
 }
@@ -181,6 +188,9 @@ li{
 }
 
 .feature h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -235,3 +245,17 @@ footer {
     color: black;
     text-align: center;
 }
+
+/* Mobile display -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
