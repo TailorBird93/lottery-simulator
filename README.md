@@ -37,3 +37,13 @@ To run the Lottery Simulator locally, follow these steps:
 ```cd lottery simulator```
 3. Open the ```index.html``` file in a web browser.
 
+## Usage
+
+1. Open the Lottery Simulator application in a web browser.
+2. Navigate to the Lotto game page.
+3. Select six numbers between 1 and 59 for your Lotto ticket.
+4. Choose the number of games you want to simulate.
+5. Click the "Play" button to start the simulation.
+6. View the results of each simulated drawing, including the winning numbers and any prizes won.
+7. Check the statistics section to see your total amount spent, total amount won, and net profit/loss.
+8. Explore the educational content and resources provided to learn more about responsible gambling and problem gambling support.
