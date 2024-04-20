@@ -29,7 +29,12 @@ nav {
     align-items: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .logo a {
     color: #fff;
     font-size: 24px;
@@ -37,6 +42,10 @@ nav {
     text-decoration: none;
 }
 
+.logo img{
+    display: flex;
+    max-height: 3vh;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -113,9 +122,6 @@ main {
     margin-right: 10px;
 }
 
-.game-options li:last-child {
-    margin-right: 0;
-}
 
 .game-options a {
     display: inline-block;
@@ -148,9 +154,21 @@ main {
 /* Features ------------------------------------------------------------------------------- */
 .features {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 40px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 .feature {
