@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto - Lottery Simulator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">Lottery Simulator</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="lotto.html">Lotto</a></li>
+                <li><a href="how-it-works.html" class="active">Know your odds</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="features">
+            <div class="feature feature2">
+                <h2>How likely are you to win?</h2>
+                <p>To calculate the odds of winning a lottery, you need to know the total number of possible combinations and the number of winning combinations.</p>
+                <p>Calculating lottery odds:
+                <p>n! / (r! * (n-r)!) <br>
+    
+                    Where: <br>
+                    n = total number of choices <br>
+                    r = number of selections made</p> <br>
+                So, using classic Lotto (choosing 6 numbers between 1-59): <br>
+                59! / (6! * (59-6)!) = 45,057,474 <br>
+                Your chances of winning the lottery are 1:45,057,474<br>
+                Keep that number in mind when you want to buy a ticket.
+    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Lottery Simulator. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

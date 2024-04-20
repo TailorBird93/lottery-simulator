@@ -12,7 +12,7 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    line-height: 200%;
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@ main {
 .game-options{
     display: none;
 }
-.game-options ul {
+.game-options ul, ol {
     list-style: none;
     padding: 0;
     margin: 10px;
@@ -191,7 +191,7 @@ footer {
     border-radius: 5%;
 }
 /* Inputs --------------------------------------------------------------------------------- */
-.number-inputs, .lucky-star-inputs {
+.number-inputs {
     margin-bottom: 20px;
     padding: 10px;
 }
