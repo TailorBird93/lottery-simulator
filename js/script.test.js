@@ -1,8 +1,6 @@
 const { JSDOM } = require('jsdom');
 const fs = require('fs');
 const path = require('path');
-
-// Read the HTML file
 const html = fs.readFileSync(path.resolve(__dirname, '../pages/lotto.html'), 'utf8');
 
 describe('Lotto Game', () => {
