@@ -17,6 +17,10 @@ $(document).ready(function() {
 document.getElementById('lotto-form').addEventListener('submit', function(event) {
   event.preventDefault();
 
+  // prevents spamming play button to start multiple function at the same time
+  let playButton = document.getElementById('play-button');
+  playButton.disabled = true;
+
   // how many games
   let numGames = parseInt(document.getElementById('num-games').value);
 
@@ -31,6 +35,7 @@ document.getElementById('lotto-form').addEventListener('submit', function(event)
 
   function playGame() {
       if (gameCounter >= numGames) {
+          playButton.disabled=false;
           return; 
       }
 
@@ -102,6 +107,8 @@ document.getElementById('lotto-form').addEventListener('submit', function(event)
       
       if (gameCounter < numGames) {
         setTimeout(playGame, 10); 
+      } else{
+        playButton.disabled=false
       }
     }
     
