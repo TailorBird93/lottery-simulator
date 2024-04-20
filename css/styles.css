@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #ffffff;
 }
 
 html, body {
@@ -225,7 +224,6 @@ form{
     justify-content: center;
 }
 #num-games{
-    background-color: #000080;
     margin: 20px;
     padding: 10px;
 }
@@ -246,6 +244,8 @@ form{
 }
 /* Results --------------------------------------------------------------------------------- */
 #result {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     padding: 10px;
     min-width: 80%;
@@ -254,7 +254,20 @@ form{
     border-radius: 4px;
     font-size: 16px;
     color: black;
-    text-align: center;
+    text-align: left;
+}
+#summary{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    min-width: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+    text-align: left;
 }
 
 /* Mobile display -------------------------------------------------------------------------- */
