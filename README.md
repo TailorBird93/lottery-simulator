@@ -64,3 +64,5 @@ To run the tests locally, follow these steps:
 3. Ensuring that the game simulation produces the expected results and updates the statistics correctly.
 
 ## Wireframes
+![Landing Page](/images/wireframes/wireframe1.jpg)
+![Lotto Game Page](/images/wireframes/wireframe2.jpg)
