@@ -66,3 +66,6 @@ To run the tests locally, follow these steps:
 ## Wireframes
 ![Landing Page](/images/wireframes/wireframe1.jpg)
 ![Lotto Game Page](/images/wireframes/wireframe2.jpg)
+
+## Lighthouse Verification
+![Lighthouse Verification](/images/wireframes/lighthouse1.jpg)
