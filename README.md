@@ -47,3 +47,20 @@ To run the Lottery Simulator locally, follow these steps:
 6. View the results of each simulated drawing, including the winning numbers and any prizes won.
 7. Check the statistics section to see your total amount spent, total amount won, and net profit/loss.
 8. Explore the educational content and resources provided to learn more about responsible gambling and problem gambling support.
+
+## Testing 
+The Lottery Simulator project includes a simple test suite to ensure the correct display of game elements. The tests are written using the Jest testing framework.
+
+To run the tests locally, follow these steps:
+1. Make sure you have Node.js and npm (Node Package Manager) installed on your system.
+2. Navigate to the project directory: ```cd lottery-simulator```
+3. Install the project dependencies: ```npm install```
+4. Run the test suite: ```npm test```
+
+ The test suite covers various aspects of the Lottery Simulator application, including:
+
+1. Checking if the Lotto game page loads correctly.
+2. Verifying the presence of essential elements on the page, such as the form, number inputs, and play button.
+3. Ensuring that the game simulation produces the expected results and updates the statistics correctly.
+
+## Wireframes

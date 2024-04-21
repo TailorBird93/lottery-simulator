@@ -116,3 +116,4 @@ document.getElementById('lotto-form').addEventListener('submit', function(event)
     
     playGame(); 
 });
+
